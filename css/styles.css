@@ -1,0 +1,44 @@
+body{
+font-family: "Roboto", sans-serif;
+
+}
+
+.company-logo{
+color: #2E2F42;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+.company-logo span{
+color: #4D5AE5;
+}
+
+.header-nav{
+color: #2E2F42;
+font-style: 16px;
+list-style-type: none;
+}
+.header-nav:hover{
+    color: #404BBF;
+}
+.header-nav:active{
+   color: #404BBF;
+
+}
+.site-contacts ul{
+list-style-type: none;
+}
+
+
+
+.section-one {
+    width: 1440px;
+    height: 600px;
+    background-color: #2E2F42;
+}
+h1{
+color: #FFFFFF;
+font-weight: bold;
+font-size: 56px; 
+line-height: 60px;
+}
