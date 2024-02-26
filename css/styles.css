@@ -134,7 +134,37 @@ line-height: 150%;
 letter-spacing: 0.02em;
 text-align: center;
 }
+/* -- sec 4 */
+.section-four{
+    background-color: #fff;
+}
 
+.section-four-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2E2F42;
+}
+.portfolio-list{
+        list-style-type: none;
+        font-style: normal;
+    }
+.portfolio-list-header{
+color: #2E2F42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.portfolio-list-p{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 /* --footer */
 .footer{
 background-color: #2e2f42;
