@@ -2,10 +2,12 @@ body{
 font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;
-
 }
 ul{
     list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 
 .company-logo
@@ -18,6 +20,7 @@ font-size: 18px;
 font-weight: bold;
 color: #4D5AE5;
 }
+
 .company-logo span{
 color: #2E2F42;
 }
@@ -29,6 +32,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+
 .header-nav-one:hover,
 .header-nav-one:focus{
     color: #404BBF;
