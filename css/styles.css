@@ -84,6 +84,7 @@ list-style-type: none;
     font-style: normal;
 }
 .sections-two-headers{
+color: #2e2f42;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -95,6 +96,42 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 }
+/* -- sec 3 */
+.section-three{
+    background-color: #F4F4FD;
+}
+.team-list{
+ list-style-type: none;
+ font-style: normal;
+}                  
+.section-three-header{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2E2F42;
+}
+
+.team-list-header{
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2E2F42;
+}
+
+.team-list-p{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+/* --footer */
 .footer{
 background-color: #2e2f42;
 }
