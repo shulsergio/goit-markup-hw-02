@@ -33,8 +33,11 @@ color: #2E2F42;
    color: #404BBF;
 
 }
-.site-contacts-one{
+.site-contacts{
 list-style-type: none;
+}
+.site-contacts-one
+{
 font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
