@@ -17,7 +17,7 @@ color: #4D5AE5;
 color: #2E2F42;
 }
 
-.header-nav{
+.header-nav-one{
 font-style: 16px;
 list-style-type: none;
 font-weight: 500;
@@ -25,22 +25,31 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-.header-nav:hover{
+.header-nav-one:hover,
+.header-nav-one:focus{
     color: #404BBF;
 }
 .header-nav:active{
    color: #404BBF;
 
 }
-.site-contacts ul{
+.site-contacts-one{
 list-style-type: none;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.site-contacts-one:hover,
+.site-contacts-one:focus {
+    color: #404BBF;
 }
 
 
 
-.section-one {
-    /* width: 1440px;
-    height: 600px; */
+.section-one
+{
     background-color: #2E2F42;
 }
 h1{
