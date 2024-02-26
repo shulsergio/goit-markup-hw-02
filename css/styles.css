@@ -49,16 +49,51 @@ font-style: normal;
 .site-contacts-one:focus {
     color: #404BBF;
 }
-
+/* -sec 1- */
 .section-one{
     background-color: #2E2F42;
+    
 }
 
-h1{
-color: #FFFFFF;
-font-weight: bold;
-font-size: 56px; 
-line-height: 60px;
+.section-header-name{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.button-order{
+    cursor: pointer;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.button-order:hover,
+.button-order:focus {
+ background-color: #404BBF;
+
+}
+/* -- sec 2 */
+
+.strategy-list{
+list-style-type: none;
+    font-style: normal;
+}
+.sections-two-headers{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.sections-two-p{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
 }
 .footer{
 background-color: #2e2f42;
