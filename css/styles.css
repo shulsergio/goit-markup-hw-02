@@ -2,6 +2,7 @@ body{
 font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;
+
 }
 .company-logo
 {
@@ -16,7 +17,9 @@ color: #4D5AE5;
 .company-logo span{
 color: #2E2F42;
 }
-
+.site-nav{
+    list-style-type: none;
+}
 .header-nav-one{
 font-style: 16px;
 list-style-type: none;
