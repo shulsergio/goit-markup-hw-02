@@ -10,8 +10,7 @@ a{
     text-decoration: none;
 }
 
-.company-logo
-{
+.company-logo{
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -37,19 +36,15 @@ color: #2E2F42;
 .header-nav-one:focus{
     color: #404BBF;
 }
-.header-nav:active{
-   color: #404BBF;
-
-}
 .site-contacts{
 font-style: normal;
 }
 .site-contacts-one
 {
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .site-contacts-one:hover,
@@ -81,7 +76,7 @@ font-style: normal;
 }
 .button-order:hover,
 .button-order:focus {
- background-color: #404BBF;
+    background-color: #404BBF;
 
 }
 /* -- sec 2 */
@@ -97,30 +92,30 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .sections-two-p{
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
 }
 /* -- sec 3 */
 .section-three{
     background-color: #F4F4FD;
 }
-.team-list{
- font-style: normal;
 
+.team-list{
+    font-style: normal;
 }           
 .team-list-li{
     background-color: #FFFFFF;
 }
 .section-three-header{
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-        color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2E2F42;
 }
 
 .team-list-header{
