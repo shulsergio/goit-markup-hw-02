@@ -1,13 +1,17 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+:root{
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --ocean: #404BBF;
+}
+
 body{
 font-family: "Roboto", sans-serif;
-color: #434455;
+color: var(--slate);
 background-color: #fff;
-}
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
 }
 
 .company-logo{
@@ -21,7 +25,7 @@ color: #4D5AE5;
 }
 
 .company-logo span{
-color: #2E2F42;
+color: var(--navy-blue);
 }
 
 .header-nav-one{
@@ -29,12 +33,12 @@ font-style: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--navy-blue);
 }
 
 .header-nav-one:hover,
 .header-nav-one:focus{
-    color: #404BBF;
+    color: var(--ocean);
 }
 .site-contacts{
 font-style: normal;
@@ -44,16 +48,16 @@ font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate);
 }
 
 .site-contacts-one:hover,
 .site-contacts-one:focus {
-    color: #404BBF;
+    color: var(--ocean);
 }
 /* -sec 1- */
 .section-one{
-    background-color: #2E2F42;
+    background-color: var(--navy-blue);
     
 }
 
@@ -76,7 +80,7 @@ font-style: normal;
 }
 .button-order:hover,
 .button-order:focus {
-    background-color: #404BBF;
+    background-color: var(--ocean);
 
 }
 /* -- sec 2 */
@@ -85,7 +89,7 @@ font-style: normal;
     font-style: normal;
 }
 .sections-two-headers{
-color: #2e2f42;
+color: var(--navy-blue);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -115,7 +119,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2E2F42;
+    color: var(--navy-blue);
 }
 
 .team-list-header{
@@ -124,7 +128,7 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 text-align: center;
-color: #2E2F42;
+color: var(--navy-blue);
 }
 
 .team-list-p{
@@ -146,13 +150,13 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
-color: #2E2F42;
+color: var(--navy-blue);
 }
 .portfolio-list{
         font-style: normal;
     }
 .portfolio-list-header{
-color: #2E2F42;
+color: var(--navy-blue);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -166,7 +170,7 @@ letter-spacing: 0.02em;
 }
 /* --footer */
 .footer{
-background-color: #2e2f42;
+background-color: var(--navy-blue);
 }
 .footer-company-logo{
     line-height: 1.17;
